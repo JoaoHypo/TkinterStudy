@@ -1,2 +1,2 @@
 # TkinterStudy
-Here I'm keep my 6 hour Tkinter course codes
+Here I'm keeping my 6 hour Tkinter course codes
