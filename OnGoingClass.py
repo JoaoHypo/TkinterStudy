@@ -1,5 +1,3 @@
-# Video at current time: https://youtu.be/YXPyB4XeYLA?t=3130
-
 from tkinter import *
 
 root = Tk()
@@ -81,8 +79,6 @@ buttMulti = Button(root, text="*",bg="orange",fg ="white",padx=40,pady=20, comma
 buttClear = Button(root, text="Clear",bg="Blue",fg ="white",padx=76,pady=20, command= button_clear)
 buttEqual = Button(root, text="=",bg="Green",fg ="Black",padx=40,pady=50, command= button_equal)
 
-
-
 #Alocando os botôes no grid
 butt0.grid(row=4, column=0,columnspan=1)
 buttClear.grid(row=4, column=1,columnspan=2)
@@ -103,8 +99,5 @@ butt6.grid(row=2, column=2)
 butt7.grid(row=1, column=0)
 butt8.grid(row=1, column=1)
 butt9.grid(row=1, column=2)
-
-
-
 
 root.mainloop()
