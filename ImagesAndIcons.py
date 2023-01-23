@@ -7,10 +7,10 @@ from PIL import ImageTk,Image
 
 root = Tk()
 root.title('Images and Icons')
-root.iconbitmap('D:\Python\TkinterStudy\iconteste.ico')
+root.iconbitmap('ImgNIcons\iconteste.ico')
 
-my_img = ImageTk.PhotoImage(Image.open('D:\Python\TkinterStudy\pngSample.png'))
-my_img2 = ImageTk.PhotoImage(Image.open('D:\Python\TkinterStudy\JPEGsample.jpg'))
+my_img = ImageTk.PhotoImage(Image.open('ImgNIcons\pngSample.png'))
+my_img2 = ImageTk.PhotoImage(Image.open('ImgNIcons\JPEGsample.jpg'))
 
 
 my_label = Label(image=my_img)
