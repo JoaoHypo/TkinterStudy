@@ -15,7 +15,7 @@ def button_click(number):
 def button_add():
     primeironum = entry.get()
     global primNum
-    primNum = int(primeironum)
+    primNum = float(primeironum)
     entry.delete(0, END)
     global method
     method = '+'
@@ -23,7 +23,7 @@ def button_add():
 def button_sub():
     primeironum = entry.get()
     global primNum
-    primNum = int(primeironum)
+    primNum = float(primeironum)
     entry.delete(0, END)
     global method
     method = '-'
@@ -31,7 +31,7 @@ def button_sub():
 def button_div():
     primeironum = entry.get()
     global primNum
-    primNum = int(primeironum)
+    primNum = float(primeironum)
     entry.delete(0, END)
     global method
     method = '/'
@@ -39,7 +39,7 @@ def button_div():
 def button_multi():
     primeironum = entry.get()
     global primNum
-    primNum = int(primeironum)
+    primNum = float(primeironum)
     entry.delete(0, END)
     global method
     method = '*'
@@ -50,13 +50,13 @@ def button_clear():
 def button_equal():
     segundonum = (entry.get())
     if method == '+':
-        equal = primNum + int(segundonum)
+        equal = primNum + float(segundonum)
     elif method == '-':
-        equal = primNum - int(segundonum)
+        equal = primNum - float(segundonum)
     elif method == '/':
-        equal = primNum / int(segundonum)
+        equal = primNum / float(segundonum)
     elif method == '*':
-        equal = primNum * int(segundonum)
+        equal = primNum * float(segundonum)
 
     entry.delete(0, END)
     entry.insert(0,equal)
