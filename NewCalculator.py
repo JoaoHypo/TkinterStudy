@@ -75,6 +75,8 @@ button_7 = tk.Button(root, text="7", padx=40, pady=20, command=lambda: button_cl
 button_8 = tk.Button(root, text="8", padx=40, pady=20, command=lambda: button_click(8))
 button_9 = tk.Button(root, text="9", padx=40, pady=20, command=lambda: button_click(9))
 button_0 = tk.Button(root, text="0", padx=40, pady=20, command=lambda: button_click(0))
+
+#strange but it's ok to use same number to button and function
 button_add = tk.Button(root, text="+", padx=39, pady=20, command=button_add)
 button_subtract = tk.Button(root, text="-", padx=41, pady=20, command=button_subtract)
 button_multiply = tk.Button(root, text="*", padx=40, pady=20, command=button_multiply)
